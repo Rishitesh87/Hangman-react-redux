@@ -16,7 +16,7 @@ class UserInput extends PureComponent {
 	}
 
 	handleSubmit(event) {
-    alert('You submitted the letter: ' + this.state.value);
+    // alert('You submitted the letter: ' + this.state.value);
     event.preventDefault();
 
 		const {value} = this.state;
@@ -39,6 +39,7 @@ class UserInput extends PureComponent {
 		const guesses= letters.map(a =>a.letter)
 
 		const showGuess =(word,guesses)=> {
+			console.log(word)
      return word
       .split('')
       .map(char => (guesses.includes(char) ? char : '     _     '))

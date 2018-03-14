@@ -1,7 +1,6 @@
 // src/containers/Board.js
 import React, { PureComponent } from 'react'
-// import PropTypes from 'prop-types'
-// import './Board.css'
+import './Game.css'
 import { connect } from 'react-redux'
 import UserInput from '../components/userinput'
 

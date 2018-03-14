@@ -1,0 +1,15 @@
+.result {
+  max-width: 100%;
+  display:flex;
+  flex-direction: column;
+  background-color: white
+  ;
+
+}
+
+.hangman-image{
+      width:50px;
+      align-content:center;
+      flex-direction: row;
+
+}
