@@ -39,13 +39,14 @@ class UserInput extends PureComponent {
 		const guesses= letters.map(a =>a.letter)
 
 		const showGuess =(word,guesses)=> {
-			console.log(guesses)
      return word
       .split('')
       .map(char => (guesses.includes(char) ? char : '     _     '))
 
 
      }
+
+
 
 		return (
 			<div>

@@ -3,18 +3,19 @@ import React, { PureComponent } from 'react'
 // import PropTypes from 'prop-types'
 // import './Board.css'
 import { connect } from 'react-redux'
-// import {showGuess} from '../lib/game.js'
 import UserInput from '../components/userinput'
+
+import Result from '../components/result'
 
 export class Game extends PureComponent {
 
 
-
-
-
   render() {
+
+
     return (
       <div className="Board">
+        <Result/>
         <UserInput/>
       </div>
     )
